@@ -5,6 +5,7 @@ namespace dotnet_core_hello_world
 {
     internal class Program
     {
+        internal static string Name="Nitin Jain";
         static void Main(string[] args)
         {
             LogMsg();
@@ -12,7 +13,7 @@ namespace dotnet_core_hello_world
 
         private async static Task LogMsg()
         {
-            Console.WriteLine("Hello Nitin Jain. How are you?");
+            Console.WriteLine($"Hello {Name}. How are you?");
         }
     }
 }
